@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>S.F Legal Firm | Expert Legal Services in Jharkhand</title>
+    <meta name="description" content="S.F Legal Firm provides expert legal services in Jharkhand High Court and Civil Court with over 30 years of combined experience.">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="monu.css">
+</head>
+<body>
+    <div class="theme-switcher">
+        <button id="themeToggle">
+            <i class="fas fa-moon"></i>
+            <span>Dark Mode</span>
+        </button>
+    </div>
+    
+    <header>
+        <div class="container">
+            <div class="brand">
+                <img src="logo.jpg" alt="S.F Legal Firm Logo">
+                <h1>S.F LEGAL FIRM</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#aboutus">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contactus">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="section">
+            <div class="container">
+                <div class="hero-content">
+                    <h2>Expert Legal Solutions in Jharkhand</h2>
+                    <p>With our combined experience, our firm provides exceptional legal services in Jharkhand High Court and Civil Court. We deliver personalized and effective solutions for our clients.</p>
+                    <a href="#contactus" class="cta-button">Get Consultation</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="aboutus" class="section">
+            <div class="container">
+                <h2>Our Legal Team</h2>
+                <div class="boxes">
+                    <div class="box" data-modal="modal1">
+                        <div class="box-icon"><i class="fas fa-balance-scale"></i></div>
+                        <h3>Shah Faisal Khan</h3>
+                        <p>Founder & Senior Advocate<br>Jharkhand High Court</p>
+                    </div>
+                    <div class="box" data-modal="modal2">
+                        <div class="box-icon"><i class="fas fa-gavel"></i></div>
+                        <h3>Md Aadil Ali Nomani</h3>
+                        <p>Advocate<br>Jharkhand High Court & Civil Court</p>
+                    </div>
+                    <div class="box" data-modal="modal3">
+                        <div class="box-icon"><i class="fas fa-landmark"></i></div>
+                        <h3>Vineet Kumar Singh</h3>
+                        <p>Advocate<br>Civil Court</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="section">
+            <div class="container">
+                <h2>Our Legal Services</h2>
+                <div class="service-boxes">
+                    <div class="service-box">
+                        <i class="fa-solid fa-handcuffs"></i>
+
+                        <h3>Criminal Matters</h3>
+                        <p>Comprehensive defense strategies for all criminal cases.</p>
+                    </div>
+                    <div class="service-box">
+                        <i class="fas fa-file-contract"></i>
+                        <h3>Civil Matters</h3>
+                        <p>Resolution of disputes between individuals/organizations.</p>
+                    </div>
+                    <div class="service-box">
+                        <i class="fas fa-money-check-alt"></i>
+                        <h3>Negotiable Instruments</h3>
+                        <p>Cheque bounce cases and other negotiable instruments.</p>
+                    </div>
+                    <div class="service-box">
+                        <i class="fas fa-home"></i>
+                        <h3>Family Law</h3>
+                        <p>Divorce, custody, adoption and other family matters.</p>
+                    </div>
+                    <div class="service-box">
+                        <i class="fas fa-university"></i>
+                        <h3>Banking & Insurance</h3>
+                        <p>Disputes related to banking and insurance sectors.</p>
+                    </div>
+                    <div class="service-box">
+                        <i class="fas fa-book"></i>
+                        <h3>Constitutional Matters</h3>
+                        <p>Protection of fundamental rights and constitutional issues.</p>
+                    </div>
+                </div>
+                <div class="view-more">
+                    <button id="viewMoreBtn">View All Services <i class="fas fa-chevron-down"></i></button>
+                    <div class="additional-services" id="additionalServices">
+                        <!-- Additional services will be loaded here via JS -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contactus" class="section">
+            <div class="container">
+                <h2>Contact Our Legal Team</h2>
+                <div class="contact-container">
+                    <form action="https://formspree.io/f/manokojj" method="POST">
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="matter">Legal Matter Description</label>
+                            <textarea id="matter" name="matter" required></textarea>
+                        </div>
+                        <button type="submit" class="submit-button">Request Consultation</button>
+                    </form>
+                    <div class="contact-info">
+                        <div class="info-box">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <a href="mailto:nomani.legal@gmail.com">sf.legal@gmail.com</a>
+                            </div>
+                        </div>
+                        <div class="info-box">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h4>Phone</h4>
+                                <a href="tel:+919439554527">+91 9439554527</a><br>
+                                <a href="tel:+919934115784">+91 9934115784</a>
+                            </div>
+                        </div>
+                        <div class="info-box">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Office</h4>
+                                <p>    
+                                    Iqra masjid 
+                                    
+                                    Main Road<br>
+                                Ranchi, Jharkhand - 834001</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Modals -->
+    <div id="modal1" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div class="modal-header">
+                <h2>Shah Faisal Khan</h2>
+                <p class="position">Founder & Senior Advocate</p>
+            </div>
+            <div class="modal-body">
+                <div class="modal-image">
+                    <img src="sf.jpg" alt="Shah Faisal Khan">
+                </div>
+                <div class="modal-details">
+                    <p><strong>Experience:</strong> 14+ years practicing law in Jharkhand</p>
+                    <p><strong>Education:</strong> LL.B</p>
+                    <p><strong>Specializations:</strong> Criminal Law, Consumer Matters, corporate Matters and other legal matters</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="modal2" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div class="modal-header">
+                <h2>Md Aadil Ali Nomani</h2>
+                <p class="position">Advocate</p>
+            </div>
+            <div class="modal-body">
+                <div class="modal-image">
+                    <img src="aadil.jpg" alt="Md Aadil Ali Nomani">
+                </div>
+                <div class="modal-details">
+                    <p><strong>Experience:</strong> 9+ years in civil and high court matters</p>
+                    <p><strong>Education:</strong> BBA LL.B AND LLM</p>
+                    <p><strong>Specializations:</strong> Civil Matters, Family Law, Banking & Insurance</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="modal3" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div class="modal-header">
+                <h2>Vineet Kumar Singh</h2>
+                        <p class="position">Advocate</p>
+                    </div>
+                    <div class="modal-body">
+                        <div class="modal-image">
+                            <img src="vineet.jpg" alt="Vineet Kumar Singh">
+                        </div>
+                        <div class="modal-details">
+                            <p><strong>Experience:</strong> 6+ months specializing in civil court matters</p>
+                            <p><strong>Education:</strong> LL.B</p>
+                            <p><strong>Specializations:</strong> Consumer Court</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-about">
+                    <h3>S.F Legal Firm</h3>
+                    <p>Providing exceptional legal services in Jharkhand. Our team of experienced advocates is committed to delivering justice and protecting our clients' rights.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#aboutus">About Us</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#contactus">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3>Contact Us</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> Jharkhand High Court, Ranchi</p>
+                    <p><i class="fas fa-phone"></i> +91 9439554527</p>
+                    <p><i class="fas fa-envelope"></i> sf.legal@gmail.com</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 S.F Legal Firm. All Rights Reserved.</p>
+                <p class="credits">Designed with <i class="fas fa-heart"></i> for justice</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="monu.js"></script>
+</html>
